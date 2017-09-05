@@ -25,6 +25,7 @@ public class DemoApplication extends Application {
     public void onCreate() {
 
         super.onCreate();
+        int x=10;
 
         Atlas.getInstance().setClassNotFoundInterceptorCallback(new ClassNotFoundInterceptorCallback() {
             @Override
