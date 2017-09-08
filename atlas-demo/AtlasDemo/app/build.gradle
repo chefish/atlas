@@ -155,6 +155,7 @@ apply plugin: 'maven-publish'
 
 publishing {
     repositories {
+        //发布到本地的仓库
         mavenLocal()
     }
 }
